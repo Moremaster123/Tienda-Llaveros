@@ -1,4 +1,5 @@
-const img = (n) => `/images/llavero-${String(n).padStart(2, '0')}.jpeg`;
+// BASE_URL permite publicar la tienda en una subcarpeta (GitHub Pages)
+const img = (n) => `${import.meta.env.BASE_URL}images/llavero-${String(n).padStart(2, '0')}.jpeg`;
 
 export const CATEGORIES = ['Todos', 'Anime y manga', 'Streetwear'];
 

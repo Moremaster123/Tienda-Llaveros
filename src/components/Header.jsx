@@ -129,7 +129,7 @@ export default function Header() {
         <HeaderBar>
             <Inner>
                 <Link to="/" onClick={closeMenu} aria-label="ROMXNO, ir al inicio">
-                    <LogoImg src="/images/logo.svg" alt="ROMXNO" />
+                    <LogoImg src={`${import.meta.env.BASE_URL}images/logo.svg`} alt="ROMXNO" />
                 </Link>
 
                 <MenuButton
